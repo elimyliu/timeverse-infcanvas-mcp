@@ -32,12 +32,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TIME-VERSE/timeverse-InfCanvas-mcp.git"
+    "url": "git+https://github.com/elimyliu/timeverse-infcanvas-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/TIME-VERSE/timeverse-InfCanvas-mcp/issues"
+    "url": "https://github.com/elimyliu/timeverse-infcanvas-mcp/issues"
   },
-  "homepage": "https://github.com/TIME-VERSE/timeverse-InfCanvas-mcp#readme",
+  "homepage": "https://github.com/elimyliu/timeverse-infcanvas-mcp#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0"
   }
