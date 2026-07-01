@@ -1,0 +1,44 @@
+{
+  "name": "timeverse-infcanvas-mcp",
+  "version": "0.1.0",
+  "description": "本地无限画布的 MCP Server — 让 AI 客户端通过 Model Context Protocol 读写本地画布",
+  "license": "MIT",
+  "type": "module",
+  "main": "./server.mjs",
+  "bin": {
+    "canvas-mcp-server": "./server.mjs"
+  },
+  "files": [
+    "*.mjs",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test.mjs",
+    "prepublishOnly": "node test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "canvas",
+    "whiteboard",
+    "ai",
+    "tldraw"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIME-VERSE/timeverse-InfCanvas-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TIME-VERSE/timeverse-InfCanvas-mcp/issues"
+  },
+  "homepage": "https://github.com/TIME-VERSE/timeverse-InfCanvas-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}

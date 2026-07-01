@@ -1,0 +1,25 @@
+# 依赖
+node_modules/
+client/node_modules/
+mcp-server/node_modules/
+
+# 构建产物
+client/dist/
+
+# 环境变量
+.env
+.env.local
+
+# 画布数据（项目运行生成）
+canvas/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统
+.DS_Store
+Thumbs.db

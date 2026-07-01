@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "node mcp-server/server.mjs",
+    "postinstall": "cd mcp-server && npm install",
+    "web": "node web-server/web-server.mjs",
+    "build:client": "cd client && npm run build",
+    "dev:client": "cd client && npm run dev"
+  }
+}
