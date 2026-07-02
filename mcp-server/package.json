@@ -6,7 +6,7 @@
   "type": "module",
   "main": "./server.mjs",
   "bin": {
-    "canvas-mcp-server": "./server.mjs"
+    "canvas-mcp-server": "server.mjs"
   },
   "files": [
     "*.mjs",

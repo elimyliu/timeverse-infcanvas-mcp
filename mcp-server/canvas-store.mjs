@@ -193,7 +193,8 @@ export class CanvasStore {
 
   // ---------------- Shape 独立文件操作 ----------------
   _shapePath(id) {
-    return path.join(this.shapesDir, `${id}.json`)
+    // Windows 不支持文件名中的冒号,替换为 --
+    return path.join(this.shapesDir, `${id.replace(/:/g, '--')}.json`)
   }
 
   async _readShape(id) {
